@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(30, 46, 93);
+}
+
+.maintable {
+  border: 2px solid rgb(228, 228, 150);
+  color: rgb(208, 212, 216);
+  border-collapse: collapse;
+  width: 100vw;
+  font-size: 32px;
+  padding: 10px;
+  text-align: center;
+  transition: none;
+}
+.head {
+  font-size: 40px;
+  color: rgb(208, 212, 216);
+  border: 5px solid rgb(228, 228, 150);
+}
+
+td:hover {
+  outline: 10px solid rgb(228, 228, 150);
+}

@@ -41,7 +41,8 @@ function createBlock() {
   const container = document.querySelector(".con");
   const div = document.createElement("div");
   div.classList.add("block");
-  div.style.backgroundColor = "#" + Math.ceil(Math.pow(16, 6).toString(16) * Math.random;
+  div.style.backgroundColor =
+    "#" + Math.ceil(Math.pow(16, 6).toString(16) * Math.random);
   container.append(div);
 }
 const button = document.querySelector(".button");
