@@ -1,0 +1,40 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.cointainer {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-areas:
+    "header header header"
+    "london paris text1"
+    "turkey turkey venice"
+    "text2 text2 venice";
+  justify-items: center;
+  align-items: center;
+}
+header {
+  grid-area: header;
+}
+.london {
+  grid-area: london;
+}
+.paris {
+  grid-area: paris;
+}
+.turkey {
+  grid-area: turkey;
+}
+.venice {
+  grid-area: venice;
+}
+.text1 {
+  grid-area: text1;
+  width: 100px;
+  text-align: center;
+}
+.text2 {
+  grid-area: text2;
+  text-align: center;
+}
